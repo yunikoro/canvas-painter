@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+html, body, #main {
+	position: absolute;
+	margin: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0px;
+}
+
+.to-flex {
+	display: flex;
+}
+
+.in-col {
+	flex-direction: column;
+}
+
+.to-bet {
+	justify-content: space-between;
+}
+
+.to-center {
+	justify-content: center; 
+}
+
+.to-end {
+	justify-content: flex-end;
+}
+
+canvas { border: 1px solid black; }
+
+.can-con {
+	height: 300px;
+}
+
+
+#tool-board {
+	flex-wrap: wrap
+}
+
+#tool-board button {
+	margin: 5px 3px 5px 1px;
+    -webkit-appearance: none;
+    border: 0px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: turquoise;
+    border-radius: 5px;
+    outline: none;
+}
+
+button.selected {
+	background-color: black;
+}
